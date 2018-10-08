@@ -1,0 +1,11 @@
+body {
+  background: #ffc600;
+}
+.words {
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 #0000001a;
+  position: relative;
+  line-height: 3rem;
+}

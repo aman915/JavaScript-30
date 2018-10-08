@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  background: url("http://wes.io/hx9M/oh-la-la.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.wrapper {
+  background-color: white;
+  width: 205px;
+  height: 274px;
+  margin: 145px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+.plates {
+  text-align: left;
+  list-style: none;
+}
+
+.plates li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.plates label {
+  flex: 1;
+}
+
+.plates input {
+  display: none;
+}
